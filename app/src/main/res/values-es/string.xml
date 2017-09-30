@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Clculadora</string>
+    <string name="hint1">Numero 1</string>
+    <string name="hint2">Numero 2</string>
+
+    <string name="btnSumar">Sum</string>
+    <string name="btnRestar">Res</string>
+    <string name="btnMultiplicar">Mul</string>
+    <string name="btnDividir">Div</string>
+
+</resources>

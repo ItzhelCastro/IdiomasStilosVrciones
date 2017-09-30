@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Calculatore</string>
+    <string name="hint1">First Number</string>
+    <string name="hint2">Second Number</string>
+
+    <string name="btnSumar">Add</string>
+    <string name="btnRestar">sub</string>
+    <string name="btnMultiplicar">Mul</string>
+    <string name="btnDividir">Div</string>
+</resources>

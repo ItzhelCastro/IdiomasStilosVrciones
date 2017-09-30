@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.norma.idiomasstilosvrciones.MainActivity">
+
+    <EditText
+
+        android:id="@+id/num1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="@string/hint1"
+
+        />
+    <EditText
+
+        android:id="@+id/num2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="@string/hint2"
+
+        />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/sumando"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="@string/btnSumar"
+            android:textSize="15sp"
+            tools:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/restando"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="@string/btnRestar"
+            android:textColor="@android:color/white"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/mul"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="@string/btnMultiplicar"
+            android:textColor="@android:color/white"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/div"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="@string/btnDividir"
+            android:textColor="@android:color/white"
+            android:textSize="15sp" />
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/resultado"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="00"
+        android:gravity="center"
+        android:textSize="120sp"
+        />
+
+
+</LinearLayout>
